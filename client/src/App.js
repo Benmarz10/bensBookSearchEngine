@@ -39,8 +39,8 @@ function App() {
         <>
           <Navbar element={<LoginForm/>} />
           <Switch>
-            <Route path="./pages/SearchBooks" element={<SearchBooks />} />
-            <Route path="./pages/SavedBooks" element={<SavedBooks />} />
+            <Route path="/" element={<SearchBooks />} />
+            <Route path="./saved" element={<SavedBooks />} />
             <Route render={() => <h1 className="display-2">Wrong page!</h1>} />
           </Switch>
         </>
