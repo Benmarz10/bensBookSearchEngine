@@ -30,4 +30,4 @@ Homepage Logged In:![Image](/assets/homeLoggedIn.jpg)
 This project is under MIT license
 
 ## Tests
-To test this application you can run the server locally or navigate to the [Heroku](https://did-i-need-that.herokuapp.com/).
+To test this application you can run the server locally or navigate to the [Heroku]( https://bensbooksearchengine.herokuapp.com/).
