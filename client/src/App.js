@@ -10,7 +10,7 @@ import { ApolloClient } from '@apollo/client';
 const client = new ApolloClient({
   request: operation => {
     const token = localStorage.getItem('id_token');
-    // hey
+    // heyhey
     operation.setContext({
       headers: {
         authorization: token ? `Bearer ${token}` : ''
